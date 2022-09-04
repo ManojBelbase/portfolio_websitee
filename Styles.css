@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+header{
+    display: flex;
+    height: 85px;
+    /* border: 1px solid gray; */
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 50px;
+}
+.college_name h1{
+    color: #2941a3;
+}
+.college_name p{
+    color: #2941a3;
+    font-size: 20px;
+}
+
+.applyonline{
+    display:flex;
+    transition:all 2s all ease-in;
+}
+.applyonline:hover{
+    transform: scale(1.1);
+}
+.applyonline p a{
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 5px solid #2941a3;
+    border-radius: 40px;
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight:400;
+}
+.applyonline p a:hover{
+    border :5px solid #ffab1f;
+    color: #ffab1f;
+    }
+.logo img{
+    margin-top: 5px;
+    border-radius: 50%;
+    transition-duration: 3s;
+}
+.logo img:hover{
+    transform: rotate(360deg);
+            cursor: pointer;
+      }
+
+/* Navbar section                             */
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 100%;
+}
+ul li{
+    list-style: none;
+        background-color: black;
+         align-items: center;
+        border: 2px solid white;
+        height: 45px;
+        width: 100%;
+    }
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+ul li a:hover
+{
+    background-color: rgb(60, 0, 255);
+    transition: 0.8s all;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+.middle_section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.log-in {
+    transition: all 0.1s ease-in;
+}
+.log-in a{
+    color: #ffab1f;
+    font-weight: bolder;
+    font-size: 23px;
+}
+.log-in:hover{
+transform: scale(1.1);
+}
+/* main section cover image of college */
+.main_sec{
+    background-image: url(./images/cover.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    border: 10px solid white;
+}  
+
+/* Footer  section                                 */
+footer{
+    height: 270px;
+    border: 1px solid rgb(135, 132, 132);
+    display: flex;
+    background-color: #294a70;
+    justify-content: space-between;
+    color: white;
+    /* padding-top: 15px; */
+}
+.footer_left{
+    width: 32%;
+    padding-left: 30px;
+    padding-top: 15px;
+    /* border: 1px solid black; */
+
+}
+.footer_left p{
+    padding-top: 15px;
+    font-size: medium;
+    font-weight: 700;
+}
+.footer_mid{
+    width:32%;
+    align-items: center;
+    text-align: center;
+}
+.footer_mid a{
+    text-decoration: none;
+    color: white;
+    /* padding-top: 5px; */
+}
+.footer_right{
+    width:32%;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.copyright{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
